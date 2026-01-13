@@ -1,45 +1,60 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Users, Target, Heart, Zap } from 'lucide-react';
-const team = [{
-  name: 'Alexandre Dubois',
-  role: 'CEO & Fondateur',
-  bio: "10 ans d'expérience en développement web et mobile. Passionné par l'innovation technologique.",
-  image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400&auto=format&fit=crop'
-}, {
-  name: 'Sophie Martin',
-  role: 'CTO',
-  bio: 'Experte en architecture logicielle et cloud computing. Anciennement chez Google.',
-  image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=400&auto=format&fit=crop'
-}, {
-  name: 'Thomas Laurent',
-  role: 'Lead Developer',
-  bio: 'Spécialiste React et React Native. Créateur de solutions mobiles innovantes.',
-  image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=400&auto=format&fit=crop'
-}, {
-  name: 'Marie Petit',
-  role: 'UI/UX Designer',
-  bio: 'Designer passionnée par les interfaces intuitives et les expériences utilisateur mémorables.',
-  image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=400&auto=format&fit=crop'
-}];
+
+
+
+// Importer les images
+const mikeImage = '/images/profil_mike.jpeg';
+const yannImage = '/images/profil_yann.jpeg';
+const konateImage = '/images/profil_konate.jpeg';
+const emileImage = '/images/profil_emile.jpeg';
+
+const team = [
+  {
+    name: 'MIKEL YAO',
+    role: 'Développeur UI/UX Designer, responsable projets',
+    bio: "Experte en architecture logicielle et cloud computing. Passionné par l'innovation technologique.",
+    image: mikeImage  // Utiliser la variable importée
+  },
+  {
+    name: 'YANN SERY',
+    role: 'developpeur fullstack, responsable technique',
+    bio: '3 ans d\'expérience en développement web et mobile. devops INPHB.',
+    image: yannImage  // Utiliser la variable importée
+  },
+  {
+    name: 'KONATE YAKOUBA',
+    role: 'developpeur backend, responsable base de données',
+    bio: 'Spécialiste python et base de données. Créateur de solutions desktop innovantes.',
+    image: konateImage  // Utiliser la variable importée
+  },
+  {
+    name: 'KOMOE EMILE',
+    role: 'Developpeur fullstack, responsable administratif et financier',
+    bio: 'Developpeur passionnée par les fluidités intuitives et les expériences utilisateur mémorables.',
+    image: emileImage  // Utiliser la variable importée
+  }
+];
+
 const milestones = [{
-  year: '2020',
+  year: '2025',
   title: 'Création',
-  description: "Fondation d'ERIDANUS CORPORATION à Paris"
+  description: "Fondation d'ERIDANUS CORPORATION à yamoussoukro"
 }, {
-  year: '2021',
+  year: '2025',
   title: 'Croissance',
-  description: 'Première équipe de 5 développeurs, 20 projets livrés'
+  description: 'Première équipe de 5 développeurs'
 }, {
-  year: '2022',
+  year: '2025',
   title: 'Expansion',
   description: 'Ouverture de nouveaux services mobile et desktop'
 }, {
-  year: '2023',
+  year: '2025',
   title: 'Excellence',
   description: '50+ projets, partenariats stratégiques'
 }, {
-  year: '2024',
+  year: '2025',
   title: 'Innovation',
   description: 'Lancement de solutions IA et cloud avancées'
 }];

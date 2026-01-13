@@ -68,8 +68,21 @@ export function Header() {
   }} className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${isScrolled || isMobileMenuOpen ? 'bg-black/80 backdrop-blur-lg border-b border-white/5' : 'bg-transparent'}`}>
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="text-2xl font-black tracking-tighter text-white z-50 relative">
-          ERIDANUS
+        <Link to="/" className="z-50 relative">
+          <img 
+            src="/logo_eridanus.png" 
+            alt="ERIDANUS Logo" 
+            className="h-10 w-auto" 
+            onError={(e) => {
+              // Si le logo ne se charge pas, afficher le nom du site
+              const target = e.target as HTMLImageElement;
+              target.style.display = 'none';
+              const textNode = document.createElement('span');
+              textNode.className = 'text-2xl font-black tracking-tighter text-white';
+              textNode.textContent = 'ERIDANUS';
+              target.parentNode?.insertBefore(textNode, target.nextSibling);
+            }}
+          />
         </Link>
 
         {/* Desktop Navigation */}

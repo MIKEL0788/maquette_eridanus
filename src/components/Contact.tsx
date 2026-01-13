@@ -36,7 +36,7 @@ export function Contact() {
                 <div>
                   <h4 className="text-white font-medium mb-1">Email</h4>
                   <a href="mailto:contact@eridanus.corp" className="text-gray-400 hover:text-white transition-colors">
-                    contact@eridanus.corp
+                    eridanuscorporation@yahoo.com
                   </a>
                 </div>
               </div>
@@ -47,8 +47,12 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="text-white font-medium mb-1">Téléphone</h4>
-                  <a href="tel:+33123456789" className="text-gray-400 hover:text-white transition-colors">
-                    +33 1 23 45 67 89
+                  <a href="tel:+2250788939465" className="text-gray-400 hover:text-white transition-colors">
+                    +225 07 88 93 94 65
+                  </a>
+                  <br />
+                  <a href="tel:+2250774591141" className="text-gray-400 hover:text-white transition-colors">
+                    +225 07 74 59 11 41
                   </a>
                 </div>
               </div>
@@ -60,7 +64,7 @@ export function Contact() {
                 <div>
                   <h4 className="text-white font-medium mb-1">Bureau</h4>
                   <p className="text-gray-400">
-                    Paris, France
+                    Yamoussokro, Abidjan
                     <br />
                     Disponible dans le monde entier
                   </p>

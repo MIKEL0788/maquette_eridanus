@@ -58,7 +58,7 @@ export function Hero() {
         duration: 0.8,
         delay: 0.2
       }} className="text-blue-400 tracking-[0.5em] text-sm md:text-base font-medium mb-4 uppercase">
-          Immersive Digital Experience
+         Expérience numérique immersive
         </motion.h2>
 
         <motion.h1 initial={{
@@ -86,7 +86,7 @@ export function Hero() {
         duration: 1,
         delay: 0.8
       }} className="mt-8 text-gray-400 max-w-lg mx-auto text-lg md:text-xl font-light">
-          Crafting the future of digital interaction with precision and depth.
+          Explorer l'infini de l'innovation 
         </motion.p>
       </div>
 
